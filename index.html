@@ -8,9 +8,9 @@
   <title>Ian King</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light p-3">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#">Ian King</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -31,14 +31,84 @@
   </nav>
   <div class="container">
     <div class="row">
-      <div class="col">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. A exercitationem sint quisquam reprehenderit voluptas, dolore eaque natus quibusdam accusamus, illum laboriosam numquam esse. Ad laboriosam dolores cum quis, distinctio nostrum.
+      <div class="col-md-8">
+        <img class="mt-4 mx-auto d-block" src="Images/Selfie.png" alt="Ian King selfie" width="300" height="300">
+          <br>
+          <h1 class="text-center">I'm Ian!</h1>
+          <div class="accordion mt-4" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Where did you study?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>I got my Bachelor of Arts in Digital Arts & Sciences from the University of Florida.</strong> I am currently pursuing a master’s degree in mass communication with a specialization in web design and online communication from the College of Journalism and Communication at the University of Florida.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Where do you live?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>I live in Tampa, Florida.</strong> I was born and raised here and decided to move back after living in Atlanta for a couple years. I dont' see myself leaving any time soon.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  What do you do for work?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>I am a web producer at a non-profit organization.</strong> I maintain the company website as an adminitrator on the CMS platform, Drupal.
+                </div>
+              </div>
+            </div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary mx-auto d-block m-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Subscribe to Newsletter
+            </button>
+  
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Subscribe to Newletter</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
       </div>
-      <div class="col-5">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, deleniti! Unde, nam. Odio id quibusdam voluptatem error repellat molestiae, aliquam vitae. Quidem cum obcaecati possimus voluptatum eos distinctio dolorum architecto?
-      </div>
-      <div class="col">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit iste molestias quo dolorem asperiores, quas aperiam laborum fuga minima perferendis, quod excepturi labore perspiciatis sit autem unde dolores provident impedit.
+      <div class="col-md-4 mb-4 p-4">
+        <h2 class="mt-4">Hobbies</h2>
+        First and foremost, I am a music lover. I spend a lot of time creating playlists, collecting MP3 files and vinyl records, and DJing. I also make music from time-to-time using the DAW, Ableton. Additionally, I’m a film lover. I’ve been obsessed with film from the time I was 3 years old. The first movie I saw in the theater was <em>Monster’s Inc.</em> and my Mom tells me I was on the edge of my seat the entire time with my eyes glued to the screen; I believe her. I’m an avid gym-goer as well. Lately I’ve been really into weightlifting, but I also do my best to go on runs a couple times a week. I love going out with my friends here in Tampa to nice restaurants, thrift shops, local markets, and breweries/bars (from time to time). Pickleball is my latest obsession and I try to play at least once every other week.
+        <h2 class="mt-4">Aspirations</h2>
+        I would like to excel at my current job and move up the ranks to eventually become the official in-house web designer. In this role, I would design new features, components, and specialized pages. This is a step up from my current position, in which I maintain the existing company website and operate within its already-built framework. I enjoy the job and steward it well, but I would like to get more creative in this position and be trusted as a visual designer. I would also one day like to start my own business — ideally that would be a coffee shop/bar/music venue of some kind. For now, I’m focused on finishing my master’s degree, performing at my job, and DJing in my local area and eventually streaming my sets online.
       </div>
     </div>
   </div>
